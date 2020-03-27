@@ -5,13 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.cache/2c/893e1228246e2cfba07b78ba76dcc2.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/2c/893e1228246e2cfba07b78ba76dcc2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/60/daa8a62a9b7908b4be024f74ee5169.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/60/daa8a62a9b7908b4be024f74ee5169.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/7c/100b3e5f9fcb804b3a93a162f8277b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/7c/100b3e5f9fcb804b3a93a162f8277b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles.164d45a1.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.164d45a1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles.164d45a1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.164d45a1.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles.164d45a1.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.164d45a1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.164d45a1.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.164d45a1.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
@@ -60,7 +58,8 @@
       <updated>1585062455983</updated>
       <workItem from="1585062457334" duration="4163000" />
       <workItem from="1585077584457" duration="4551000" />
-      <workItem from="1585314896174" duration="72000" />
+      <workItem from="1585314896174" duration="4807000" />
+      <workItem from="1585345812428" duration="5946000" />
     </task>
     <servers />
   </component>

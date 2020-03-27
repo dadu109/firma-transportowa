@@ -13,19 +13,17 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.nav .logo {
-  height: 100%;
-}
 .nav .menu {
   width: 40%;
   display: flex;
   justify-content: space-between;
 }
 .nav .menu .nav-link {
-  color: #297373;
+  color: #FF8552;
   text-decoration: none;
   position: relative;
   font-size: 1.2em;
+  font-weight: bold;
   padding-bottom: 0.2em;
   transition: color 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
@@ -36,12 +34,12 @@ body {
   top: 100%;
   width: 0;
   height: 2px;
-  background-color: #FF8552;
+  background-color: #297373;
   transform: translateX(-50%);
   transition: width 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 .nav .menu .nav-link:hover {
-  color: #FF8552;
+  color: #297373;
 }
 .nav .menu .nav-link:hover::before {
   width: 100%;
@@ -52,12 +50,24 @@ body {
   align-items: center;
   padding: 0 0.6em;
 }
-.mobile-nav .mobile-menu {
+
+.logo {
+  font-size: 3em;
+  color: #FF8552;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .logo {
+    font-size: 1.5em;
+  }
+}
+
+.mobile-menu {
   z-index: 3;
   width: 100vw;
   height: 100vh;
   padding: 3em 0;
-  background: #297373;
+  background: #FF8552;
   position: absolute;
   top: 0;
   left: 0;
@@ -68,12 +78,12 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-.mobile-nav .mobile-menu .nav-link {
+.mobile-menu .nav-link {
   text-decoration: none;
   color: #fff;
   font-size: 1.6em;
 }
-.mobile-nav .mobile-menu--open {
+.mobile-menu--open {
   transform: translateX(0);
 }
 
@@ -81,7 +91,7 @@ body {
   background: transparent;
   border: none;
   z-index: 4;
-  outline-color: #297373;
+  outline-color: #FF8552;
 }
 .burger span {
   display: block;
@@ -89,7 +99,7 @@ body {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #297373;
+  background: #FF8552;
   border-radius: 3px;
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
@@ -100,7 +110,7 @@ body {
   transform-origin: 0% 100%;
 }
 .burger--open {
-  outline-color: #FF8552;
+  outline-color: #297373;
 }
 .burger--open span {
   background-color: #fff;
@@ -116,6 +126,106 @@ body {
 .burger--open span:last-child {
   transform-origin: 0% 100%;
   transform: rotate(-45deg) translate(-2px, 4px);
+}
+
+.hero-slide {
+  position: relative;
+}
+.hero-slide::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #297373;
+  background-blend-mode: multiply;
+  filter: grayscale(100%);
+}
+.hero-slide .slide-heading {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2.8em;
+  position: relative;
+  margin-left: 40px;
+}
+@media (max-width: 767px) {
+  .hero-slide .slide-heading {
+    font-size: 1.7em;
+  }
+}
+.hero-slide .slide-heading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -40px;
+  width: 8px;
+  height: 100%;
+  background-color: #FF8552;
+}
+.hero-slide p {
+  color: #fff;
+  line-height: 1.5em;
+}
+.hero-slide .button-cta {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #FF8552;
+  padding: 15px;
+  transition: background-color 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+@media (max-width: 767px) {
+  .hero-slide .button-cta {
+    font-size: 1em;
+  }
+}
+.hero-slide .button-cta:hover {
+  background-color: #297373;
+}
+
+.hero-1::before {
+  background-image: url("/hero.316905a1.jpg");
+}
+
+.hero-2::before {
+  background-image: url("/hero2.36e1f030.jpg");
+}
+
+.hero-3::before {
+  background-image: url("/hero3.17cbc8e1.jpg");
+}
+
+.container-fluid {
+  max-width: 1920px;
+}
+
+@media (min-width: 767px) {
+  .d-md-initial {
+    display: initial !important;
+  }
+}
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-button-prev {
+  color: #FF8552;
+  left: 20px;
+}
+
+.swiper-button-next {
+  color: #FF8552;
+  right: 20px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #FF8552;
 }
 
 /*# sourceMappingURL=/styles.164d45a1.css.map */
