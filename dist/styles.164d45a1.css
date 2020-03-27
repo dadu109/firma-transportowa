@@ -1,2 +1,121 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .logo {
+  height: 100%;
+}
+.nav .menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .menu .nav-link {
+  color: #297373;
+  text-decoration: none;
+  position: relative;
+  font-size: 1.2em;
+  padding-bottom: 0.2em;
+  transition: color 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+.nav .menu .nav-link::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background-color: #FF8552;
+  transform: translateX(-50%);
+  transition: width 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+.nav .menu .nav-link:hover {
+  color: #FF8552;
+}
+.nav .menu .nav-link:hover::before {
+  width: 100%;
+}
+
+.mobile-nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.6em;
+}
+.mobile-nav .mobile-menu {
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  padding: 3em 0;
+  background: #297373;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transform: translateX(-100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.mobile-nav .mobile-menu .nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6em;
+}
+.mobile-nav .mobile-menu--open {
+  transform: translateX(0);
+}
+
+.burger {
+  background: transparent;
+  border: none;
+  z-index: 4;
+  outline-color: #297373;
+}
+.burger span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #297373;
+  border-radius: 3px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+.burger span:first-child {
+  transform-origin: 0% 0%;
+}
+.burger span:last-child {
+  transform-origin: 0% 100%;
+}
+.burger--open {
+  outline-color: #FF8552;
+}
+.burger--open span {
+  background-color: #fff;
+}
+.burger--open span:first-child {
+  transform-origin: 0% 0%;
+  transform: rotate(45deg) translate(1px, -1px);
+}
+.burger--open span:nth-last-child(2) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+.burger--open span:last-child {
+  transform-origin: 0% 100%;
+  transform: rotate(-45deg) translate(-2px, 4px);
+}
 
 /*# sourceMappingURL=/styles.164d45a1.css.map */
