@@ -3,7 +3,6 @@ const mobileMenu = document.querySelector('.mobile-menu');
 const swiperContainer = document.querySelector('.swiper-container');
 const navWrapper = document.querySelector('.nav-wrapper');
 const mobileNavLinks = mobileMenu.querySelectorAll("a");
-console.log(mobileNavLinks);
 
 let burgerOpen = false;
 
