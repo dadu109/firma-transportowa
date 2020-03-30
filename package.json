@@ -6,7 +6,8 @@
   "dependencies": {
     "bootstrap-4-grid": "^3.4.0"
   },
-  "scipts": {
-    "build": "parcel build index.html"
+  "scripts": {
+    "dev": "parcel src/content/index.html",
+    "build": "parcel build src/content/index.html"
   }
 }
