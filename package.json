@@ -7,7 +7,7 @@
     "bootstrap-4-grid": "^3.4.0"
   },
   "scripts": {
-    "dev": "parcel src/content/index.html",
+    "dev": "parcel index.html",
     "build": "parcel build index.html"
   }
 }
