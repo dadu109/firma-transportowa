@@ -11,7 +11,8 @@
       <change beforePath="$PROJECT_DIR$/dist/styles.164d45a1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.164d45a1.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles.164d45a1.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.164d45a1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,8 @@
       <workItem from="1585314896174" duration="4807000" />
       <workItem from="1585345812428" duration="6200000" />
       <workItem from="1585401699990" duration="16122000" />
-      <workItem from="1585568566844" duration="3104000" />
+      <workItem from="1585568566844" duration="3876000" />
+      <workItem from="1585572853811" duration="3495000" />
     </task>
     <servers />
   </component>

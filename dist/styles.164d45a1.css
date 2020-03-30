@@ -35,12 +35,12 @@ body {
   top: 100%;
   width: 0;
   height: 2px;
-  background-color: #F6373B;
+  background-color: #B33D4E;
   transform: translateX(-50%);
   transition: width 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 .nav .menu .nav-link:hover {
-  color: #F6373B;
+  color: #B33D4E;
 }
 .nav .menu .nav-link:hover::before {
   width: 100%;
@@ -115,7 +115,7 @@ body {
   transform-origin: 0% 100%;
 }
 .burger--open {
-  outline-color: #F6373B;
+  outline-color: #B33D4E;
 }
 .burger--open span {
   background-color: #fff;
@@ -146,7 +146,7 @@ body {
   height: 100%;
   background-size: cover;
   background-position: center;
-  background-color: #F6373B;
+  background-color: #B33D4E;
   background-blend-mode: multiply;
   filter: grayscale(100%);
 }
@@ -191,7 +191,7 @@ body {
   }
 }
 .hero-slide .button-cta:hover {
-  background-color: #F6373B;
+  background-color: #B33D4E;
 }
 
 .hero-1::before {
@@ -224,13 +224,6 @@ body {
   transform: translate(-50%, 5px);
 }
 
-.about {
-  color: #fff;
-  background-color: #3a3a3a;
-}
-.about div {
-  color: #fff;
-}
 .about-icon {
   width: 100%;
   font-size: 5em;
@@ -239,7 +232,7 @@ body {
   transition: color 0.3s ease-in-out;
 }
 .about-icon:hover {
-  color: #F6373B;
+  color: #B33D4E;
 }
 .about-heading {
   width: 100%;
@@ -310,10 +303,24 @@ body {
   }
 }
 
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
 .footer {
   background-color: #3a3a3a;
   color: #fff;
   line-height: 2em;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.2s ease-in-out;
+}
+.footer a:hover {
+  color: #B33D4E;
 }
 .footer .info {
   display: flex;
