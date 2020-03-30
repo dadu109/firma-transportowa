@@ -1,5 +1,6 @@
 $primary: #029a20;
 $secondary: #F6373B;
+$grey: #3a3a3a;
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -236,7 +237,7 @@ body {
 
 .section-heading {
   text-align: center;
-  font-size: 2.2em;
+  font-size: 2.5em;
   font-weight: bold;
   color: #000;
   position: relative;
@@ -254,6 +255,11 @@ body {
 }
 
 .about {
+  color:#fff;
+  background-color: $grey;
+  div{
+    color:#fff;
+  }
   &-icon {
     width: 100%;
     font-size: 5em;
@@ -273,7 +279,6 @@ body {
   }
 
   &-caption {
-    color: #000;
     line-height: 1.5em;
     text-align: center;
   }
@@ -339,6 +344,35 @@ body {
       flex-direction: column;
     }
   }
+}
+
+.footer{
+  background-color: $grey;
+  color:#fff;
+  line-height: 2em;
+  .info{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -20px;
+      width: 8px;
+      height: 100%;
+      background-color: $primary;
+    }
+    &-line{
+      font-size: 1.4em;
+      position:relative;
+
+    }
+  }
+}
+
+.map{
+  max-height: 300px;
 }
 
 .container-fluid {

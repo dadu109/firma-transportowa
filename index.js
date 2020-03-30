@@ -2,6 +2,8 @@ const burger = document.querySelector('.burger');
 const mobileMenu = document.querySelector('.mobile-menu');
 const swiperContainer = document.querySelector('.swiper-container');
 const navWrapper = document.querySelector('.nav-wrapper');
+const mobileNavLinks = mobileMenu.querySelectorAll("a");
+console.log(mobileNavLinks);
 
 let burgerOpen = false;
 
@@ -40,6 +42,14 @@ burger.addEventListener('click', () => {
         mobileMenu.classList.add('mobile-menu--open');
         burgerOpen = true;
     }
+});
+
+mobileNavLinks.forEach(e=>{
+    e.addEventListener('click',()=>{
+        burger.classList.remove('burger--open');
+        mobileMenu.classList.remove('mobile-menu--open');
+        burgerOpen = false;
+    })
 });
 
 window.addEventListener('resize', adjustSwiperHeight);

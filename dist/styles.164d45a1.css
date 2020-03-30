@@ -208,7 +208,7 @@ body {
 
 .section-heading {
   text-align: center;
-  font-size: 2.2em;
+  font-size: 2.5em;
   font-weight: bold;
   color: #000;
   position: relative;
@@ -224,6 +224,13 @@ body {
   transform: translate(-50%, 5px);
 }
 
+.about {
+  color: #fff;
+  background-color: #3a3a3a;
+}
+.about div {
+  color: #fff;
+}
 .about-icon {
   width: 100%;
   font-size: 5em;
@@ -241,7 +248,6 @@ body {
   font-weight: bold;
 }
 .about-caption {
-  color: #000;
   line-height: 1.5em;
   text-align: center;
 }
@@ -302,6 +308,34 @@ body {
   .service:nth-child(even) {
     flex-direction: column;
   }
+}
+
+.footer {
+  background-color: #3a3a3a;
+  color: #fff;
+  line-height: 2em;
+}
+.footer .info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.footer .info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 8px;
+  height: 100%;
+  background-color: #029a20;
+}
+.footer .info-line {
+  font-size: 1.4em;
+  position: relative;
+}
+
+.map {
+  max-height: 300px;
 }
 
 .container-fluid {
