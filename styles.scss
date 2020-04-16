@@ -396,6 +396,12 @@ body {
   max-width: 1920px;
 }
 
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 @media (min-width: 1200px) {
   .d-lg-initial {
     display: initial !important;

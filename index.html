@@ -10,10 +10,18 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="modal-style.css">
     <link rel="stylesheet" href="styles.scss">
     <title>AK Trade | usługi transportowe</title>
 </head>
 <body>
+<div class="modal">
+    <img src="" alt="certyfikat" class="modal-img">
+    <div class="close">X</div>
+    <div class="count"></div>
+    <div class="prev">⊲</div>
+    <div class="next">⊳</div>
+</div>
 <div class="mobile-menu">
     <a href="#about" class="nav-link">O nas</a>
     <a href="#services" class="nav-link">Usługi</a>
@@ -160,6 +168,16 @@
         </div>
     </div>
 </div>
+<div id="certificates" class="container mt-5 mt-lg-0">
+    <div class="row py-5">
+        <div class="col section-heading">Certyfikaty</div>
+    </div>
+    <div class="row py-5">
+        <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-2"><img src="https://via.placeholder.com/300" alt="certyfikat" class="galleryImg img-fluid"></div>
+        <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-2"><img src="https://via.placeholder.com/300" alt="certyfikat" class="galleryImg img-fluid"></div>
+        <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-2"><img src="https://via.placeholder.com/300" alt="certyfikat" class="galleryImg img-fluid"></div>
+    </div>
+</div>
 <div id="contact" class="container-fluid mt-5 mt-lg-0 footer bbw">
     <div class="container">
         <div class="row py-5">
@@ -201,6 +219,7 @@
 </div>
 <script src="https://unpkg.com/swiper/js/swiper.js"></script>
 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script src="modal-gallery.js"></script>
 <script src="index.js"></script>
 </body>
 </html>

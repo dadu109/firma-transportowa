@@ -1,0 +1,78 @@
+
+.modal{
+    display:block;
+    width:100vw;
+    height:100vh;
+    background:rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:5;
+    opacity:0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+}
+.modal img{
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+}
+.modal-open{
+    opacity: 1 !important;
+    pointer-events: all;
+}
+.modal .modal-img{
+    transform: scale(0);
+}
+.modal-open .modal-img{
+    position: absolute;
+    max-width:90vw;
+    max-height: 80vh;
+    top:40%;
+    left:50%;
+    transform: scale(1) translate(-50%,-50%);
+    transform-origin: 0 0;
+    border:solid 3px white;
+    transition: transform 0.2s ease-in-out;
+    transition-delay:0.2s;
+}
+.prev{
+    position: absolute;
+    bottom:9%;
+    left:50%;
+    transform: translate(-100px);
+    font-size: 3em;
+    color:#fff;
+    cursor: pointer;
+    user-select: none;
+}
+.next{
+    position: absolute;
+    bottom:9%;
+    right:50%;
+    transform: translate(100px);
+    font-size: 3em;
+    color:#fff;
+    cursor: pointer;
+    user-select: none;
+}
+.count{
+    position:absolute;
+    bottom:10%;
+    left:50%;
+    transform: translateX(-50%);
+    font-size:2em;
+    color:#fff;
+}
+.close{
+    position:absolute;
+    font-size: 3em;
+    top:3%;
+    right:5%;
+    color:#fff;
+    cursor: pointer;
+}
