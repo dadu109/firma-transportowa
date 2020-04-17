@@ -304,9 +304,18 @@ body {
     margin-top: 0;
   }
 
+  img{
+    border-left:$primary solid 6px;
+  }
+
   &:nth-child(even) {
     flex-direction: row-reverse;
     text-align: left;
+
+    img{
+      border:none;
+      border-right:$primary solid 6px;
+    }
 
     p {
       margin: 0;

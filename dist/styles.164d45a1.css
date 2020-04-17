@@ -265,9 +265,16 @@ body {
   font-size: 2.3em;
   margin-top: 0;
 }
+.service img {
+  border-left: #029a20 solid 6px;
+}
 .service:nth-child(even) {
   flex-direction: row-reverse;
   text-align: left;
+}
+.service:nth-child(even) img {
+  border: none;
+  border-right: #029a20 solid 6px;
 }
 .service:nth-child(even) p {
   margin: 0;
