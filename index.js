@@ -17,7 +17,7 @@ const mySwiper = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
     },
     simulateTouch: true,
-    effect:'fade',
+    effect: 'fade',
     fadeEffect: {
         crossFade: true
     },
@@ -26,7 +26,7 @@ const mySwiper = new Swiper('.swiper-container', {
 const adjustSwiperHeight = (e) => {
     if (window.innerHeight < 1000) {
         swiperContainer.style.height = `${window.innerHeight - navWrapper.clientHeight}px`
-    }else{
+    } else {
         swiperContainer.style.height = '1000px';
     }
 };
@@ -43,8 +43,8 @@ burger.addEventListener('click', () => {
     }
 });
 
-mobileNavLinks.forEach(e=>{
-    e.addEventListener('click',()=>{
+mobileNavLinks.forEach(e => {
+    e.addEventListener('click', () => {
         burger.classList.remove('burger--open');
         mobileMenu.classList.remove('mobile-menu--open');
         burgerOpen = false;
@@ -52,6 +52,5 @@ mobileNavLinks.forEach(e=>{
 });
 
 window.addEventListener('resize', adjustSwiperHeight);
-
 
 adjustSwiperHeight();

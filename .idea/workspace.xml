@@ -11,7 +11,7 @@
       <change beforePath="$PROJECT_DIR$/dist/styles.164d45a1.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.164d45a1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles.164d45a1.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.164d45a1.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modal-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/modal-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,8 @@
       <workItem from="1585599772990" duration="1521000" />
       <workItem from="1587032389616" duration="4988000" />
       <workItem from="1587037915391" duration="614000" />
-      <workItem from="1587125450776" duration="2028000" />
+      <workItem from="1587125450776" duration="2195000" />
+      <workItem from="1587130355342" duration="432000" />
     </task>
     <servers />
   </component>
