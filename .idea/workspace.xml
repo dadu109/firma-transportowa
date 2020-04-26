@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dbc48f0-5cc7-4766-821b-0ff0148049ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache/2c/893e1228246e2cfba07b78ba76dcc2.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/2c/893e1228246e2cfba07b78ba76dcc2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/60/daa8a62a9b7908b4be024f74ee5169.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/60/daa8a62a9b7908b4be024f74ee5169.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hero.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/hero2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/hero2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/hero3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.164d45a1.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.164d45a1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.164d45a1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.164d45a1.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles.164d45a1.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.164d45a1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles.164d45a1.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.164d45a1.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Dawid\AppData\Roaming\npm\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
@@ -70,7 +71,7 @@
       <workItem from="1587125450776" duration="2195000" />
       <workItem from="1587130355342" duration="935000" />
       <workItem from="1587639231013" duration="30000" />
-      <workItem from="1587928641138" duration="4956000" />
+      <workItem from="1587928641138" duration="5727000" />
     </task>
     <servers />
   </component>
