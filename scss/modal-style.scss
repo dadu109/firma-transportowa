@@ -67,6 +67,7 @@
 
 .count {
     position: absolute;
+    font-variant-numeric: diagonal-fractions;
     bottom: 7%;
     left: 50%;
     transform: translateX(-50%);
