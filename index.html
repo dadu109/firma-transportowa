@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/bootstrap-4-grid/css/grid.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,12 +33,12 @@
     <div class="row">
         <div class="col">
             <div class="nav py-3 d-none d-lg-flex">
-                <div class="logo"><img src="assets/logo.png" alt="logo"></div>
+                <div class="logo"><img src="assets/logo.png" alt="logo" class="wow fadeIn"></div>
                 <div class="menu">
-                    <a href="#about" class="nav-link">O nas</a>
-                    <a href="#services" class="nav-link">Usługi</a>
-                    <a href="#certificates" class="nav-link">Certyfikaty</a>
-                    <a href="#contact" class="nav-link">Kontakt</a>
+                    <a href="#about" class="nav-link wow fadeIn" data-wow-delay="0.1s">O nas</a>
+                    <a href="#services" class="nav-link  wow fadeIn" data-wow-delay="0.2s">Usługi</a>
+                    <a href="#certificates" class="nav-link  wow fadeIn" data-wow-delay="0.3s">Certyfikaty</a>
+                    <a href="#contact" class="nav-link  wow fadeIn" data-wow-delay="0.4s">Kontakt</a>
                 </div>
             </div>
             <div class="mobile-nav py-3 d-flex d-lg-none">
@@ -56,11 +57,11 @@
         <div class="swiper-slide hero-slide hero-1">
             <div class="container px-4 p-lg-0 h-100 ">
                 <div class="row d-flex h-100 m-0 flex-column justify-content-center">
-                    <div class="col-lg-8 ">
-                        <h2 class="my-5 slide-heading">Transport na terenie polski i europy</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus assumenda atque cum
+                    <div class="col-lg-8">
+                        <h2 class="my-5 slide-heading wow fadeIn" data-wow-delay="0.1s">Transport na terenie polski i europy</h2>
+                        <p class="wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus assumenda atque cum
                             doloremque eligendi incidunt nisi officiis omnis optio pariatur</p>
-                        <a href="#services" class="my-5 button-cta">Czytaj więcej</a>
+                        <a href="#services" class="my-5 button-cta wow fadeIn" data-wow-delay="0.3s">Czytaj więcej</a>
                     </div>
                 </div>
             </div>
@@ -100,12 +101,12 @@
             <div class="col section-heading">O nas</div>
         </div>
         <div class="row pb-5 my-5 justify-content-lg-between">
-            <div class="col-12 col-md-6 col-lg-3 my-5 my-lg-0">
+            <div class="col-12 col-md-6 col-lg-3 my-5 my-lg-0 wow fadeIn" data-wow-delay="0.2s">
                 <i class="fa fa-clock-o about-icon"></i>
                 <div class="about-heading my-3">Szybko</div>
                 <p class="about-caption">Każde zlecenie jest dla nas misją, którą należy wykonać w jak najkrótszym czasie.</p>
             </div>
-            <div class="col-12 col-md-6 col-lg-3 my-5 my-lg-0">
+            <div class="col-12 col-md-6 col-lg-3 my-5 my-lg-0 wow fadeIn" data-wow-delay="0.3s">
                 <i class="fa fa-check about-icon"></i>
                 <div class="about-heading my-3">Pewnie</div>
                 <p class="about-caption">Zaufały nam już dziesiątki przedsiębiorców, z którymi nawiązaliśmy współpracę.</p>
@@ -115,7 +116,7 @@
 <!--                <div class="about-heading my-3">Heart</div>-->
 <!--                <p class="about-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, cumque?</p>-->
 <!--            </div>-->
-            <div class="col-12 col-md-6 col-lg-3 my-5 my-lg-0">
+            <div class="col-12 col-md-6 col-lg-3 my-5 my-lg-0 wow fadeIn" data-wow-delay="0.4s">
                 <i class="fa fa-globe about-icon"></i>
                 <div class="about-heading my-3">Wszędzie</div>
                 <p class="about-caption">Nasze usługi doceniają zarówno rozwijające się firmy jak i zagraniczne marki.</p>
@@ -129,16 +130,16 @@
     </div>
     <div class="row mb-5">
         <div class="service">
-            <img src="assets/hero.png" class="galleryImg" alt="hero">
-            <div>
+            <img src="assets/hero.png" class="galleryImg wow fadeInLeft" alt="hero">
+            <div class="wow fadeInRight">
                 <h3 class="title-service">Transport na terenie Polski</h3>
                 <p class="service-caption">Od Karpat do Pomorza, wzdłuż Wisły. Dowozimy towar na terenie całego kraju,
                     dla Twoich potrzeb. Transport nigdy nie był tak szybki i prosty. </p>
             </div>
         </div>
         <div class="service">
-            <img src="assets/hero2.jpg" class="galleryImg" alt="hero">
-            <div>
+            <img src="assets/hero2.jpg" class="galleryImg wow fadeInRight" alt="hero">
+            <div class="wow fadeInLeft">
                 <h3 class="title-service">Transport na terenie Europy</h3>
                 <p class="service-caption">Dla nas nie ma granic w transporcie. Specjalizujemy się w przewozie towarów na terenie Europy.
                     Przekonaj się do naszych usług.</p>
@@ -150,7 +151,7 @@
     <div class="row py-5 mb-5">
         <div class="col section-heading">Certyfikaty</div>
     </div>
-    <div class="row justify-content-md-center py-5">
+    <div class="row justify-content-md-center py-5 wow fadeIn">
         <div class="col-lg-2 col-md-4 col-6"><a
                 href="https://www.firmagodnazaufania.pl/company,7910,ak-trade-handel-hurtowy-i-detaliczny-andrzej-krzan"><img
                 class="img-fluid w-100 d-block mx-auto" src="./assets/medal1.png" alt="medal1"></a>
@@ -192,7 +193,7 @@
 <div id="contact" class="container-fluid mt-5 mt-lg-0 footer bbw">
     <div class="container mt-5">
         <div class="row py-5">
-            <div class="col-12 col-lg-6 d-flex align-items-center">
+            <div class="col-12 col-lg-6 d-flex align-items-center wow fadeIn" data-wow-delay="0.2s">
                 <div class="info">
                     <span class="info-line mb-3">
                         Własciciel: Andrzej Krzan
@@ -213,7 +214,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+            <div class="col-12 col-lg-6 mt-5 mt-lg-0 wow fadeIn" data-wow-delay="0.3s">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10244.48672228954!2d22.4956545!3d50.0652828!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf5f5e60cf053c2a8!2sAK%20Trade.%20Krzan%20A.!5e0!3m2!1spl!2spl!4v1585570380870!5m2!1spl!2spl"
                         width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
                         aria-hidden="false" tabindex="0" class="map"></iframe>
@@ -231,7 +232,11 @@
 </div>
 <script src="https://unpkg.com/swiper/js/swiper.js"></script>
 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="modal-gallery.js"></script>
 <script src="index.js"></script>
+<script>
+    new WOW().init();
+ </script>
 </body>
 </html>
