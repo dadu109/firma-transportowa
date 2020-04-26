@@ -202,10 +202,6 @@ body {
   background-image: url("/hero2.36e1f030.jpg");
 }
 
-.hero-3::before {
-  background-image: url("/hero3.17cbc8e1.jpg");
-}
-
 .section-heading {
   text-align: center;
   font-size: 2.8em;
