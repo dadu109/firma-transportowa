@@ -96,6 +96,17 @@ body {
   &--open {
     transform: translateX(0);
   }
+
+  .languages{
+    display:flex;
+    a{
+      width:50px;
+      margin-left:15px;
+      &:first-child{
+        margin:0;
+      }
+    }
+  }
 }
 
 .burger {
@@ -387,6 +398,17 @@ body {
       font-size: 1.4em;
       position: relative;
 
+    }
+  }
+}
+
+.languages{
+  display:flex;
+  a{
+    width:20px;
+    margin-left:15px;
+    &:first-child{
+      margin:0;
     }
   }
 }
